@@ -80,7 +80,8 @@ body {
     color: #F9FAF8;
     padding: 8px 30px;
     font-size: 18px;
-    border-radius: 12px;
+    font-weight: 600;
+    border-radius: 8px;
     border: none;
 }
 
@@ -117,7 +118,7 @@ body {
 
 .image-info img {
     height: 170px;
-    border-radius: 12px;
+    border-radius: 16px;
     border: 5px solid #3882F6;
 }
 
@@ -166,4 +167,41 @@ body {
     font-size: 24px;
     color: #1F2937;
     font-weight: 800;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    width: 876px;
+    margin: 100px 124px;
+    padding: 0 108px 0 120px;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+
+.left-cta .heading {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 800;
+}
+
+.left-cta .subtext {
+    color: #E5E7EB;
+}
+
+.right-cta {
+    padding-right: 12px;
+    
+}
+
+.right-cta button {
+    background-color: #3882F6;
+    border-radius: 8px;
+    border: 2px solid #E5E7EB;
+    padding: 8px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #F9FAF8;
 }
