@@ -205,3 +205,15 @@ body {
     font-weight: 600;
     color: #F9FAF8;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: #1F2937;
+    height: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color:#F9FAF8;
+    align-items: center;
+}
