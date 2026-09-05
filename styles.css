@@ -31,6 +31,7 @@ body {
 
 .left-header {
     font-weight: bold;
+    padding: 24px;
 }
 
 .right-header {
@@ -38,9 +39,53 @@ body {
     font-size: 16px;
     font-weight: 350;
     gap: 24px;
+    padding: 24px;
 }
 
 .right-header a {
     text-decoration: none;
     color: #F9FAF8;
+}
+
+.hero {
+    display: flex;
+    height: 400px;
+    background: #1F2937;
+    padding-left: 100px;
+    padding-right: 100px;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.left-hero {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    color: #F9FAF8;
+    gap: 18px;
+}
+
+.left-hero .heading {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.left-hero .subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.left-hero button {
+    background: #3882F6;
+    color: #F9FAF8;
+    padding: 8px 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+}
+
+.right-hero img{
+    height: 250px;
+    width: 500px;
+    padding: 24px;
 }
