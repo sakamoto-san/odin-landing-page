@@ -134,3 +134,36 @@ body {
     text-align: center;
     color: #4A4A4A
 }
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    padding: 24px 24px 0 24px;
+    width: 876px;
+}
+
+.quote-person {
+    display: flex;
+    padding: 0 64px 24px 0;
+    width: 876px;
+    justify-content: flex-end;
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: 800;
+}
