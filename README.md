@@ -1,0 +1,1 @@
+This is a basic landing page website project. Here I will demonstrate my skills in HTML as well as in CSS.
